@@ -1,10 +1,10 @@
-# [Thanks for visiting my Website Repo](steffenknoedler.github.io)
+# [My Personal Website](sknoedler.github.io)
 
-[Grayscale](http://startbootstrap.com/template-overviews/grayscale/) is a multipurpose, one page HTML theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+Thanks for visiting my Website Repository.
 
 ## Preview
 
-[![Grayscale Preview](https://startbootstrap.com/assets/img/screenshots/themes/grayscale.png)](https://blackrockdigital.github.io/startbootstrap-grayscale/)
+[![Website Preview](https://startbootstrap.com/assets/img/screenshots/themes/grayscale.png)](https://blackrockdigital.github.io/startbootstrap-grayscale/)
 
 **[View Live Preview](https://blackrockdigital.github.io/startbootstrap-grayscale/)**
 
