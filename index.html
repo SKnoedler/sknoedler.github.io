@@ -6,6 +6,8 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <script src="typed.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 
   <title>Steffen Knödler - Portfolio</title>
 
@@ -62,28 +64,29 @@
   <header class="masthead">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
-            <div id="typed-strings">
+            <div id="typedstrings">
               <br><p>Hi there! ^1000 <strong>I'm Steffen.</strong> ^1200 <br> ^900 An Aspiring Data Scientist. ^1200 This is my Portfolio.</p>
             </div>
           <span id="typed"></span>
           <script>
             var typed = new Typed('#typed', {
-              stringsElement: '#typed-strings',
+              stringsElement: '#typedstrings',
               typeSpeed: 50,
               startDelay: 50,
               backSpeed: 50,
-              loop: false,
-              shuffle: false,
+              smartBackspace: true,
+              fadeOut: true,
               showCursor: true,
               cursorChar: '|',
               autoInsertCss: true,
-              smartBackspace: true,
             });
           </script>
           <br>
           <br>
+          <div id="button1">
           <a href="#about" class="btn btn-primary js-scroll-trigger">Learn More</a>
-        </div>
+          </div>
+          <script>$('#button1').hide().delay(11500).fadeIn(5000);</script>
       </div>
     </div>
   </header>
