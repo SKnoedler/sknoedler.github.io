@@ -70,8 +70,10 @@
   <header class="masthead">
     <div class="container d-flex h-100 align-items-center">
       <div>
+        
         <div id="typedstrings">
           <br>
+          <!--
           <p>Hi there! ^1000 <strong>I'm Steffen.</strong> ^1200 <br> ^900 I Love Coding & Data. ^1200</p>
         </div>
         <span id="typed"></span>
@@ -86,13 +88,25 @@
             showCursor: true,
             cursorChar: '|',
             autoInsertCss: true,
-          });
-          
+          });-->
+          <span id="typed"></span>
+          <script>
+              var typed = new Typed('#typed', {
+    strings: ["Hi there! ^1000 <strong>I'm Steffen.</strong> " , 'I love Coding and Data Science', 'Why? ^1000 I like to <i>create things</i>', "Why? It's fun to solve problems", 'Why? Coding is <strong>Art</strong>'],
+    typeSpeed: 50,
+    startDelay: 50,
+    backSpeed: 50,
+    smartBackspace: true, // this is a default
+    autoInsertCss: true,
+    loop: false
+  })
+
+
           function scroll1() {
             var elmnt = document.getElementById("about");
             elmnt.scrollIntoView({ block: 'end',  behavior: 'smooth' });
           }
-          setTimeout(scroll1, 9500)
+          setTimeout(scroll1, 22000)
           
         </script>
         <!--
