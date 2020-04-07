@@ -69,7 +69,7 @@
   <!-- Header -->
   <header class="masthead">
     <div class="container d-flex h-100 align-items-center">
-      <div class="mx-auto text-center">
+      <div>
         <div id="typedstrings">
           <br>
           <p>Hi there! ^1000 <strong>I'm Steffen.</strong> ^1200 <br> ^900 I Love Coding & Data. ^1200</p>
@@ -87,13 +87,22 @@
             cursorChar: '|',
             autoInsertCss: true,
           });
+          
+          function scroll1() {
+            var elmnt = document.getElementById("about");
+            elmnt.scrollIntoView({ block: 'end',  behavior: 'smooth' });
+          }
+          setTimeout(scroll1, 9500)
+          
         </script>
+        <!--
         <br>
         <br>
         <div id="button1">
           <a href="#about" class="btn btn-primary js-scroll-trigger">Learn More</a>
         </div>
-        <script>$('#button1').hide().delay(10000).fadeIn(5000);</script>
+        
+        <script>$('#button1').hide().delay(10000).fadeIn(5000);</script>-->
       </div>
     </div>
   </header>
@@ -695,6 +704,7 @@
   }
 
   @media(min-width: 992px) {
+
     .textOverImage {
       width: 465px;
       height: 438.5px;
