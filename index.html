@@ -69,15 +69,16 @@
   <!-- Header -->
   <header class="masthead">
     <div class="container d-flex h-100 align-items-center">
-      <div>
+      <div id="texttyped">
 
         <div id="typedstrings">
-          <br>
           <span id="typed"></span>
           <script>
+
             var typed = new Typed('#typed', {
-              strings: ["Hi there! ^1000 <strong>I'm Steffen.</strong> ", 'I love Coding and Data Science', 'Why? ^1000 I like to <i>create</i> things', "Why? I enjoy problem-solbing", "Why? I enjoy problem-solving", 'Why? Coding is <strong>Art</strong>'],
-              typeSpeed: 60,
+              strings: ["Hi there!^1000 <strong>I'm Steffen.</strong>^500 <br>^1000I love Coding and Data Science^500 <br>^500 <br>^1000 Why? ^1000 I like to <i>create</i> things", "Hi there! <strong>I'm Steffen.</strong> <br>I love Coding and Data Science <br> <br> Why? I enjoy problem-solbing", "Hi there! <strong>I'm Steffen.</strong> <br>I love Coding and Data Science <br> <br> Why? I enjoy problem-solving", "Hi there! <strong>I'm Steffen.</strong> <br>I love Coding and Data Science <br> <br> Why? Coding is <strong>Art</strong>"],
+              //strings: ["Hi there! ^1000 <strong>I'm Steffen.</strong>", "I love Coding and Data Science", "Why? ^1000 I like to <i>create</i> things", "Why? I enjoy problem-solbing", "Why? I enjoy problem-solving", "Why? Coding is <strong>Art</strong>"],
+              typeSpeed: 70,
               startDelay: 1300,
               backSpeed: 50,
               contentType: 'html',
@@ -92,7 +93,7 @@
               var elmnt = document.getElementById("about");
               elmnt.scrollIntoView({ block: 'end', behavior: 'smooth' });
             }
-            setTimeout(scroll1, 26200)
+            setTimeout(scroll1, 27200)
 
           </script>
         </div>
@@ -682,6 +683,7 @@
   padding: 0;
   text-align: justify;
 }
+
   
 
 
@@ -726,8 +728,10 @@
     transition: 0.5s;
   }
 
+
+
   #typed {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-family: "PT Serif", Georgia, "Times New Roman", serif;
     line-height: 1.5;
     font-weight: 400;
@@ -750,7 +754,7 @@
     }
 
     #typed {
-      font-size: 1.5rem;
+      font-size: 2rem;
       font-family: "PT Serif", Georgia, "Times New Roman", serif;
       line-height: 1.5;
       font-weight: 400;
@@ -758,7 +762,7 @@
     }
 
     .typed-cursor {
-      font-size: 20px;
+      font-size: 25px;
       color: white;
       opacity: 1;
       -webkit-animation: blink 0.7s infinite;
@@ -783,7 +787,7 @@
     }
 
     .typed-cursor {
-      font-size: 40px;
+      font-size: 30px;
       color: white;
       opacity: 1;
       -webkit-animation: blink 0.7s infinite;
@@ -799,7 +803,7 @@
     }
 
     #typed {
-      font-size: 3rem;
+      font-size: 2rem;
       font-family: "PT Serif", Georgia, "Times New Roman", serif;
       line-height: 1.5;
       font-weight: 400;
@@ -807,7 +811,7 @@
     }
 
     .typed-cursor {
-      font-size: 50px;
+      font-size: 40px;
       color: white;
       opacity: 1;
       -webkit-animation: blink 0.7s infinite;
