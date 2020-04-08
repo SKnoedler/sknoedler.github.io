@@ -76,10 +76,12 @@
           <span id="typed"></span>
           <script>
               var typed = new Typed('#typed', {
-    strings: ["Hi there! ^1000 <strong>I'm Steffen.</strong> " , 'I love Coding and Data Science', 'Why? ^1000 I like to <i>create</i> things', "Why? I enjoy problem-solving", 'Why? Coding is <strong>Art</strong>'],
-    typeSpeed: 50,
-    startDelay: 80,
+    strings: ["Hi there! ^1000 <strong>I'm Steffen.</strong> " , 'I love Coding and Data Science', 'Why? ^1000 I like to <i>create</i> things', "Why? I enjoy problem-solbing", "Why? I enjoy problem-solving", 'Why? Coding is <strong>Art</strong>'],
+    typeSpeed: 60,
+    startDelay: 1300,
     backSpeed: 50,
+    contentType: 'html',
+    cursorChar: "|",
     smartBackspace: true, // this is a default
     autoInsertCss: true,
     loop: false
@@ -90,7 +92,7 @@
             var elmnt = document.getElementById("about");
             elmnt.scrollIntoView({ block: 'end',  behavior: 'smooth' });
           }
-          setTimeout(scroll1, 22000)
+          setTimeout(scroll1, 26400)
           
         </script>
         <!--
