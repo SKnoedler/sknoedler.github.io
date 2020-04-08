@@ -177,7 +177,7 @@
 }
 
 .projects-section {
-    padding: 10rem 0 480rem
+    padding: 5rem 0 480rem
 }
 
 .projects-section .featured-text {
@@ -185,7 +185,7 @@
 }
 @media (min-width:410px) {
     .projects-section {
-        padding: 10rem 0 420rem
+        padding: 5rem 0 420rem
     }
 }
 
