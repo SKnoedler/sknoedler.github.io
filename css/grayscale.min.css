@@ -185,13 +185,13 @@
 }
 @media (min-width:410px) {
     .projects-section {
-        padding: 5rem 0 420rem
+        padding: 2rem 0 440rem
     }
 }
 
 @media (min-width:550px) {
     .projects-section {
-        padding: 10rem 0 320rem
+        padding: 5rem 0 320rem
     }
 }
 
