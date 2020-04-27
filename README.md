@@ -1,4 +1,4 @@
-# [My Data Science Website](sknoedler.github.io)
+# [My Portofolio Website](sknoedler.github.io)
 
 Thanks for visiting my Website Repository.
 
