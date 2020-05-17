@@ -4,6 +4,8 @@ Thanks for visiting my Website Repository.
 
 ## Preview
 
+![](demo.gif)
+
 [![Website Preview](https://raw.githubusercontent.com/SKnoedler/sknoedler.github.io/master/img/Website%20Preview.PNG)](sknoedler.github.io)
 
 ## About
